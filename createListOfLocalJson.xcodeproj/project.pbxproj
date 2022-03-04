@@ -13,6 +13,11 @@
 		DD173A6927D046FF00B81614 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD173A6727D046FF00B81614 /* Main.storyboard */; };
 		DD173A6B27D0470100B81614 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD173A6A27D0470100B81614 /* Assets.xcassets */; };
 		DD173A6E27D0470100B81614 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD173A6C27D0470100B81614 /* LaunchScreen.storyboard */; };
+		DD173A7727D0476400B81614 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD173A7527D0476400B81614 /* SettingsTableViewCell.swift */; };
+		DD173A7827D0476400B81614 /* SettingsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD173A7627D0476400B81614 /* SettingsTableViewCell.xib */; };
+		DD173A7C27D04A8000B81614 /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD173A7B27D04A8000B81614 /* SettingsModel.swift */; };
+		DD173A8427D2AC9B00B81614 /* SettingsList.json in Resources */ = {isa = PBXBuildFile; fileRef = DD173A8227D2AB3000B81614 /* SettingsList.json */; };
+		DD173A8627D2AD2900B81614 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD173A8527D2AD2900B81614 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		DD173A6A27D0470100B81614 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD173A6D27D0470100B81614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD173A6F27D0470100B81614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD173A7527D0476400B81614 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		DD173A7627D0476400B81614 /* SettingsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsTableViewCell.xib; sourceTree = "<group>"; };
+		DD173A7B27D04A8000B81614 /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
+		DD173A8227D2AB3000B81614 /* SettingsList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SettingsList.json; sourceTree = "<group>"; };
+		DD173A8527D2AD2900B81614 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +69,13 @@
 				DD173A6127D046FF00B81614 /* AppDelegate.swift */,
 				DD173A6327D046FF00B81614 /* SceneDelegate.swift */,
 				DD173A6527D046FF00B81614 /* ViewController.swift */,
+				DD173A7B27D04A8000B81614 /* SettingsModel.swift */,
+				DD173A8227D2AB3000B81614 /* SettingsList.json */,
 				DD173A6727D046FF00B81614 /* Main.storyboard */,
+				DD173A8527D2AD2900B81614 /* ProfileViewController.swift */,
 				DD173A6A27D0470100B81614 /* Assets.xcassets */,
+				DD173A7527D0476400B81614 /* SettingsTableViewCell.swift */,
+				DD173A7627D0476400B81614 /* SettingsTableViewCell.xib */,
 				DD173A6C27D0470100B81614 /* LaunchScreen.storyboard */,
 				DD173A6F27D0470100B81614 /* Info.plist */,
 			);
@@ -125,8 +140,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD173A8427D2AC9B00B81614 /* SettingsList.json in Resources */,
 				DD173A6E27D0470100B81614 /* LaunchScreen.storyboard in Resources */,
 				DD173A6B27D0470100B81614 /* Assets.xcassets in Resources */,
+				DD173A7827D0476400B81614 /* SettingsTableViewCell.xib in Resources */,
 				DD173A6927D046FF00B81614 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD173A8627D2AD2900B81614 /* ProfileViewController.swift in Sources */,
+				DD173A7C27D04A8000B81614 /* SettingsModel.swift in Sources */,
 				DD173A6627D046FF00B81614 /* ViewController.swift in Sources */,
 				DD173A6227D046FF00B81614 /* AppDelegate.swift in Sources */,
+				DD173A7727D0476400B81614 /* SettingsTableViewCell.swift in Sources */,
 				DD173A6427D046FF00B81614 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

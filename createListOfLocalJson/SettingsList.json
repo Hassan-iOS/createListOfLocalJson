@@ -1,0 +1,53 @@
+[
+    
+    {
+        "id": 2,
+        "title": "QR Code",
+        "image": "QR_Code",
+        "VC": "",
+        "Storyboard": ""
+    },
+    {
+        "id": 3,
+        "title": "Permissions",
+        "image": "Permissions",
+        "VC": "",
+        "Storyboard": ""
+    },
+    {
+        "id": 4,
+        "title": "Media",
+        "image": "settingsMedia",
+        "VC": "",
+        "Storyboard": ""
+    },
+    {
+        "id": 5,
+        "title": "Blocking",
+        "image": "Blocked_Users_List",
+        "VC": "",
+        "Storyboard": ""
+    },
+    {
+        "id": 6,
+        "title": "Help",
+        "image": "settingsHelp",
+        "VC": "",
+        "Storyboard": ""
+    },
+    {
+        "id": 7,
+        "title": "Account",
+        "image": "settingsManageAccount",
+        "VC": "",
+        "Storyboard": ""
+    },
+    {
+        "id": 1,
+        "title": "Settings",
+        "image": "Settings_Store",
+        "VC": "ProfileViewController",
+        "Storyboard": "SettingsStoryboard"
+    }
+]
+
